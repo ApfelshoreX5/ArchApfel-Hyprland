@@ -16,7 +16,7 @@ fonts=(
   ttf-jetbrains-mono 
   ttf-jetbrains-mono-nerd
   ttf-victor-mono
-  tff-oswald
+  ttf-oswald
 )
 
 
