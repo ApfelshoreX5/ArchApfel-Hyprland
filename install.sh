@@ -1,5 +1,6 @@
 #!/bin/bash
-# https://github.com/JaKooLit
+# https://github.com/ApfelshoreX5 
+# original is from https://github.com/JaKooLit
 
 clear
 
@@ -65,14 +66,12 @@ clear
 
 printf "\n%.0s" {1..2}  
 echo -e "\e[35m
-	╦╔═┌─┐┌─┐╦    ╦ ╦┬ ┬┌─┐┬─┐┬  ┌─┐┌┐┌┌┬┐
-	╠╩╗│ ││ │║    ╠═╣└┬┘├─┘├┬┘│  ├─┤│││ ││ 2025
-	╩ ╩└─┘└─┘╩═╝  ╩ ╩ ┴ ┴  ┴└─┴─┘┴ ┴┘└┘─┴┘ 
+    ArchApfel Installscript v0.5.1
 \e[0m"
 printf "\n%.0s" {1..1} 
 
 # Welcome message
-echo "${SKY_BLUE}Welcome to JaKooLit's Arch-Hyprland (2025) Install Script!${RESET}"
+echo "${SKY_BLUE}Hey, Welcome to the ArchApfel Installscript!${RESET}"
 echo
 echo "${WARNING}ATTENTION: Run a full system update and Reboot first!! (Highly Recommended) ${RESET}"
 echo
@@ -253,10 +252,7 @@ if [[ "$zsh" == "Y" ]]; then
 fi
 
 printf "\n"
-ask_yes_no "-Installing on ${YELLOW}Asus ROG laptops?${RESET}" rog
-
-printf "\n"
-ask_yes_no "-Do you want to add pre-configured ${YELLOW}KooL's Hyprland dotfiles?${RESET}" dots
+ask_yes_no "-Do you want to add pre-configured ${YELLOW}Apfel's-Hyprland-Dots?${RESET}" dots
 
 printf "\n"
 
@@ -335,10 +331,6 @@ fi
 
 if [ "$input_group" == "Y" ]; then
     execute_script "InputGroup.sh"
-fi
-
-if [ "$rog" == "Y" ]; then
-    execute_script "rog.sh"
 fi
 
 if [ "$dots" == "Y" ]; then
