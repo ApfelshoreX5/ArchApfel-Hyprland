@@ -7,7 +7,7 @@
 source "$(dirname "$(readlink -f "$0")")/Global_functions.sh"
 
 # Check if Hyprland-Dots exists
-printf "${NOTE} Cloning and Installing ${SKY_BLUE}Apfel's Hyprland Dots${RESET}....\n"
+printf "${NOTE} Cloning and Installing ${SKY_BLUE}Apfelshores-Dots${RESET}....\n"
 
 if [ -d Apfelshores-Dots ]; then
   cd Apfelshores-Dots
@@ -22,7 +22,7 @@ else
     chmod +x copy.sh
     ./copy.sh 
   else
-    echo -e "$ERROR Can't download ${YELLOW}Apfel's Hyprland-Dots${RESET} . Check your internet connection"
+    echo -e "$ERROR Can't download ${YELLOW}Apfelshores-Dots${RESET} . Check your internet connection"
   fi
 fi
 
