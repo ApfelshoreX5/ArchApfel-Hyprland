@@ -247,10 +247,6 @@ ask_yes_no "-Install ${YELLOW}XDG-DESKTOP-PORTAL-HYPRLAND?${RESET} (For proper S
 printf "\n"
 ask_yes_no "-Install ${YELLOW}zsh${RESET} with ${YELLOW}oh-my-zsh?${RESET}" zsh
 
-if [[ "$zsh" == "Y" ]]; then
-    ask_yes_no "-Add ${YELLOW}Pokemon color scripts?${RESET} in your terminal?" pokemon_choice
-fi
-
 printf "\n"
 ask_yes_no "-Do you want to add pre-configured ${YELLOW}Apfel's-Hyprland-Dots?${RESET}" dots
 
@@ -324,9 +320,6 @@ fi
 
 if [ "$zsh" == "Y" ]; then
     execute_script "zsh.sh"
-fi
-if [ "$pokemon_choice" == "Y" ]; then
-    execute_script "zsh_pokemon.sh"
 fi
 
 if [ "$input_group" == "Y" ]; then

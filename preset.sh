@@ -44,12 +44,6 @@ xdph="Y"
 ### Shell extension. Bash alternative
 ###-Install zsh, oh-my-zsh
 zsh="Y"
-### add Pokemon color scripts to terminal 
-pokemon_choice="Y"
-
-### This will install ASUSCTL & SUPERGFXCTL
-###-Installing on Asus ROG Laptops?
-rog="N"
 
 ###-Download and Add pre-configured Hyprland dotfiles?
 dots="Y"

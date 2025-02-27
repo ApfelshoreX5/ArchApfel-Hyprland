@@ -50,6 +50,8 @@ hypr_package=(
   xdg-user-dirs
   xdg-utils 
   yad
+  nwg-look
+  nwg-displays
 )
 
 # the following packages can be deleted. however, dotfiles may not work properly
@@ -64,8 +66,6 @@ hypr_package_2=(
   mpv
   mpv-mpris 
   nvtop
-  nwg-look
-  nwg-displays
   pacman-contrib
   qalculate-gtk
   vim
